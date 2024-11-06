@@ -1,5 +1,5 @@
-.gMonth {
-    height: 600px;
+.gMonth, #f1, #f2, #f3{
+    height: 250px;
     width: 800px;
     display: flex;
 }
@@ -7,4 +7,9 @@
 #placeholderSize {
     width: 350px;
     height: 200px;
+}
+
+#f1img, #f2img, #f3img{
+    width: 250px;
+    height: 150px;
 }
