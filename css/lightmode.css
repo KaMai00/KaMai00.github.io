@@ -1,3 +1,6 @@
+body{
+    background-color: color(183, 154, 235)
+}
 .gMonth, #f1, #f2, #f3{
     height: 250px;
     width: 800px;
@@ -13,9 +16,27 @@
     width: 250px;
     height: 150px;
 }
-
 #JK, #NS {
     height: 250px;
     width: 800px;
     display: flex;
 }
+.navbar_home {
+    display: flex;
+    justify-content: center; 
+    padding: 10px ;
+  }
+  
+  .navbar_home a {
+    text-decoration: none; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333; 
+    margin: 0 15px; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .navbar_home a:hover {
+    color: #9f05b7; 
+    transform: scale(1.05); 
+    
+  }
