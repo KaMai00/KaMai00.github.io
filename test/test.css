@@ -12,13 +12,13 @@
   
 
   
-  p {
+  /* p {
     font-size: 65px;
     font-family: "Archivo Black", "Archivo", sans-serif;
     font-weight: normal;
     background-color: black;
 
-  }
+  } */
   
   .neon-1 {
     color: white;
@@ -104,4 +104,8 @@
   
   .button_test-1:active {
     top: 1px;
+  }
+
+  .font {
+    font: arial;
   }
