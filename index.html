@@ -18,7 +18,9 @@
     <div class="titel">
       <h1 class="titelH1">More Like This</h1>
       <h2 class="titleH2">A Webprojekt by Julian and Noah</h2>
-    </div>
+      <button onclick="changeCSS('lightmode.css')">Lightmode</button>
+      <button onclick="changeCSS('darkmode.css')">Darkmode</button>
+    </div> 
 
     <div class="gMonth">
       <div class="gMonthIMG">
@@ -99,5 +101,11 @@
           <a href="other/dataSecurity.html">Date Security</a>
         </div>
       </div>
+      <script>
+        function changeCSS(sheet){
+          document.getElementById("theme").setAttribute("href", sheet);
+          
+        }
+      </script>
   </body>
 </html>
