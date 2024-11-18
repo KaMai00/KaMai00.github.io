@@ -87,3 +87,8 @@ h1,h2,h3,h4,p{
 #info {
     display: flex;
 }
+#changeCssButton {
+    position: absolute; /* Position it absolutely */
+    top: 10px; /* Distance from the top */
+    left: 10px; /* Distance from the left */
+}
