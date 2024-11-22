@@ -8,6 +8,7 @@ body {
 
 .navbar_home {
   display: flex;
+  background-color: #e0e0e0;
   justify-content: center;
   padding: 10px;
 }
@@ -51,6 +52,7 @@ body {
 
 .footerLinks {
   padding: 20px;
+  background-color: #e0e0e0;
   display: flex;
   justify-content: center;
 
