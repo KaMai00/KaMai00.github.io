@@ -10,3 +10,6 @@ window.onload = function() {
     document.getElementById('csstheme').setAttribute('href', `../css/${csstheme}.css`);
 };
 
+function reset(){
+    
+}
