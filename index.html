@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Julian Kitzmueller - Noah Scchwarz" />
-  <link id="theme" rel="stylesheet" href="css/lightmode.css" />
+  <link id="csstheme" rel="stylesheet" href="css/lightmode.css" />
+  <script src="js/theme.js"></script>
   <title>More Like This</title>
 </head>
 
@@ -16,7 +17,7 @@
     <a href="other/games.html">Games</a>
     <a href="other/contact.html">Contact</a>
   </div>
-  <button id="changeCSSButton" onclick="changeCSS()">Change Mode</button>
+  <button onclick="toggleCSSTheme()">Toggle Theme</button>
   <div class="titel">
     <h1 class="titelH1">More Like This</h1>
     <h2 class="titleH2">A Webprojekt by Julian and Noah</h2>
@@ -85,24 +86,6 @@
       <a href="other/dataSecurity.html">Date Security</a>
     </div>
   </div>
-  <script>
-    let isLightMode = true; 
-
-    function changeCSS() {
-      const theme = document.getElementById('theme');
-      const toggleButton = document.getElementById('changeCSSButton');
-
-      if (isLightMode) {
-        theme.setAttribute('href', 'css/darkmode.css'); 
-        
-      } else {
-        theme.setAttribute('href', 'css/lightmode.css'); 
-        
-      }
-
-      isLightMode = !isLightMode; 
-    }
-  </script>
 </body>
 
 </html>
