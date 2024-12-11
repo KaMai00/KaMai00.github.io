@@ -4,25 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="theme" rel="stylesheet" href="../../css/lightmode.css" />
-    <title>Document</title>
+    <title>Eldenring</title>
 </head>
-<body>
-  <div class="navbar_home">
-    <a href="../../index.html">Home</a>
-    <a href="../../other/new.html">New</a>
-    <a href="../../other/games.html">Games</a>
-    <a href="../../other/contact.html">Contact</a>
+<div class="navbar_home">
+  <a href="../../index.html">Home</a>
+  <a href="../../other/new.html">New</a>
+  <a href="../../other/games.html">Games</a>
+  <a href="../../other/contact.html">Contact</a>
+</div>
+<button onclick="toggleCSSTheme()">Toggle Theme</button>
+
+<div id="titleImg">
+  <img src="" alt="Title Image" />
+</div>
+
+<!-- div für bild und text -->
+<div id="descrip">
+  <div>
+    <img src="" alt="Image 1" id="descImg" />
   </div>
-  <button id="changeCSSButton" onclick="changeCSS()">Change Mode</button>
-    <div class="footerLinks">
-        <div id="logo">
-          <!-- logo -->
-        </div>
-        <div id="info">
-          <a href="../../other/contacInfo.html">Contact Info</a>
-          <a href="../../other/imprint.html">Imprint</a>
-          <a href="../../other/dataSecurity.html">Date Security</a>
-        </div>
-      </div>
+  <div id="desc">
+    <h3>Desciption</h3>
+    <p>
+
+    </p>
+  </div>
+</div>
+<!-- div für bilder -->
+<div id="game2Img">
+  <div>
+    <img src="" alt="Image 2" class="2Img" />
+  </div>
+  <div>
+    <img src="" alt="Image 3" class="2Img" />
+  </div>
+</div>
+
+<div id="syst">
+  <!-- div für bild und text -->
+  <div>
+    <!-- minimum -->
+    <div>
+      <ol>
+        <li>Minimum</li>
+        <li></li>
+        <li>OS: </li>
+        <li>Processor: </li>
+        <li>Memory: </li>
+        <li>
+          Graphics: 
+        </li>
+        <li>Storage: </li>
+      </ol>
+    </div>
+
+    <!-- Recommended -->
+    <div>
+      <ol>
+        <li>RECOMMENDED</li>
+        <li></li>
+        <li>OS: </li>
+        <li>Processor: </li>
+        <li>Memory: </li>
+        <li>
+          Graphics: 
+        </li>
+        <li>Storage: </li>
+      </ol>
+    </div>
+  </div>
+  <div>
+    <img src="" alt=" Image 4" />
+  </div>
+</div>
+
+
+
+<div id="MLT">
+  <h3>More like this</h3>
+  <p>games that are similar to this one</p>
+
+  <!-- game links -->
+  <div>
+    <div class="MLTlink">
+      <img
+        src=""
+        alt=""
+        class="MLTImg"
+      />
+      <h3></h3>
+      <p>
+
+      </p>
+      <button>
+        <a href="">Learn More</a>
+      </button>
+    </div>
+    <div class="MLTlink">
+      <img
+        src=""
+        alt=""
+        class="MLTImg"
+      />
+      <h3></h3>
+      <p>
+
+      </p>
+      <button>
+        <a href="">Learn More</a>
+      </button>
+    </div>
+    <div class="MLTlink">
+      <img
+        src=""
+        alt=""
+        class="MLTImg"
+      />
+      <h3></h3>
+      <p>
+
+      </p>
+      <button><a href="">Learn More</a></button>
+    </div>
+  </div>
+</div>
+
+<div class="footerLinks">
+  <div id="logo">
+    <!-- logo -->
+  </div>
+  <div id="info">
+    <a href="../../other/contacInfo.html">Contact Info</a>
+    <a href="../../other/imprint.html">Imprint</a>
+    <a href="../../other/dataSecurity.html">Date Security</a>
+  </div>
+</div>
 </body>
 </html>
