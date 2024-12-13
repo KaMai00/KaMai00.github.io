@@ -1,5 +1,9 @@
 body {
     background-color: color(183, 154, 235);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
 .gMonth,
@@ -12,20 +16,39 @@ body {
 }
 
 .gMonth {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gMonthIMG img, .featured img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.gameContent {
+    text-align: center;
+    margin: 20px 0;
+}
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.featured p {
+    color: #666; 
     justify-content: center;
 }
 
-#placeholderSize {
-    width: 350px;
-    height: 200px;
-}
-
-#f1img,
-#f2img,
-#f3img {
-    width: 250px;
-    height: 150px;
+.f1, .f2, .f3 {
+    display: flex;
+    
+    margin: 20px 0;
+    justify-content: center;
 }
 
 #JK,
@@ -34,9 +57,28 @@ body {
     width: 800px;
     display: flex;
 }
-h1,h2,h3,h4,p{
-    color: #333;
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+.titel {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.titelH1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.titleH2 {
+    font-size: 1.5em;
+    color: #666; 
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #005bb5; 
 }
 
 .navbar_home {
@@ -87,7 +129,7 @@ h1,h2,h3,h4,p{
     display: flex;
 }
 #changeCssButton {
-    position: absolute; /* Position it absolutely */
-    top: 10px; /* Distance from the top */
-    left: 10px; /* Distance from the left */
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
 }
