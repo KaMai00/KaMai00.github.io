@@ -3,9 +3,7 @@ body {
 }
 
 .gMonth,
-#f1,
-#f2,
-#f3 {
+.game{
     height: 250px;
     width: 800px;
     display: flex;
@@ -21,9 +19,7 @@ body {
     height: 200px;
 }
 
-#f1img,
-#f2img,
-#f3img {
+.gameImg {
     width: 250px;
     height: 150px;
 }

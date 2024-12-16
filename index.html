@@ -1,87 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Julian Kitzmueller - Noah Scchwarz" />
+    <link id="csstheme" rel="stylesheet" href="css/lightmode.css" />
+    <script src="js/theme.js"></script>
+    <title>More Like This</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Julian Kitzmueller - Noah Scchwarz" />
-  <link id="csstheme" rel="stylesheet" href="css/lightmode.css" />
-  <script src="js/theme.js"></script>
-  <title>More Like This</title>
-</head>
-
-<body>
-  <div class="navbar_home">
-    <a href="index.html">Home</a>
-    <a href="other/new.html">New</a>
-    <a href="other/games.html">Games</a>
-    <a href="other/contact.html">Contact</a>
-  </div>
-  <button class="buttoncss" onclick="toggleCSSTheme()">Toggle Theme</button>
-  <div class="titel">
-    <h1 class="titelH1">More Like This</h1>
-    <h2 class="titleH2">A Webprojekt by Julian and Noah</h2>
-  </div>
-
-  <div class="gMonth">
-    <div class="gameContent">
-      <h3 class="titleH3">Game Title</h3>
-      <h4 class="titelH4">Game of The Month</h4>
-      <div class="gMonthIMG">
-        <img src="games/DarkSouls_1/img/title.jpg" alt="placeholder" id="placeholderSize" />
-      </div>
-      <p class="paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur.
-      </p>
+  <body>
+    <div class="navbar_home">
+      <a href="index.html">Home</a>
+      <a href="other/new.html">New</a>
+      <a href="other/games.html">Games</a>
+      <a href="other/contact.html">Contact</a>
     </div>
-  </div>
+    <button class="buttoncss" onclick="toggleCSSTheme()">Toggle Theme</button>
+    <div class="titel">
+      <h1 class="titelH1">More Like This</h1>
+      <h2 class="titleH2">A Webprojekt by Julian and Noah</h2>
+    </div>
 
-  <div class="featured">
-    <h2 class="titleH2">Featured Games</h2>
-    <p class="paragraph">Games we think you would like</p>
-    <div calss="f1">
-      <div>
-        <img src="games/DarkSouls_1/img/title.jpg" alt="placeholder" id="f1img" />
-      </div>
-      <div>
+    <div class="gMonth">
+      <div class="gameContent">
         <h3 class="titleH3">Game Title</h3>
-        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <button class="buttonlink"><a href="games/DarkSouls_1/index.html">More</a></button>
+        <h4 class="titelH4">Game of The Month</h4>
+        <div class="gMonthIMG">
+          <img src="" alt="Game of the Month Title Image" id="gMonthIMG" />
+        </div>
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
       </div>
     </div>
-    <div calss="f2">
-      <div>
-        <img src="games/DarkSouls_1/img/title.jpg" alt="placeholder" id="f2img" />
-      </div>
-      <div>
-        <h3 class="titleH3">Game Title</h3>
-        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <button class="buttonlink"><a href="games/DarkSouls_1/index.html">More</a></button>
-      </div>
-    </div>
-    <div class="f3">
-      <div>
-        <h3 class="titleH3">Game Title</h3>
-        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <button class="buttonlink"><a href="games/DarkSouls_1/index.html">More</a></button>
-      </div>
-    </div>
-  </div>
-  <div class="footerLinks">
-    <div id="logo">
-      
-    </div>
-    <div id="info">
-      <a href="other/contacInfo.html">Contact Info</a>
-      <a href="other/imprint.html">Imprint</a>
-      <a href="other/dataSecurity.html">Date Security</a>
-    </div>
-  </div>
-</body>
 
+    <div class="featured">
+      <h2 class="titleH2">Featured Games</h2>
+      <p class="paragraph">Games we think you would like</p>
+      <div class="game">
+        <div>
+          <img
+            src="games/DarkSouls_2/img_darksouls_2/Title_img.webp"
+            alt="Title Image"
+            class="gameImg"
+          />
+        </div>
+        <div>
+          <h3 class="titleH3">DarkSouls 2</h3>
+          <p class="paragraph">
+            Dark Souls 2 is the highly anticipated sequel to the gruelling 2011
+            breakout hit Dark Souls.
+          </p>
+          <button class="buttonlink">
+            <a href="games/DarkSouls_2/DarkSouls_2.html">More</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="game">
+        <div>
+          <img
+            src="games/Blasphemous/img_blasphemous/Title_img.webp"
+            alt="Title Image"
+            class="gameImg"
+          />
+        </div>
+        <div>
+          <h3 class="titleH3">Blasphemous</h3>
+          <p class="paragraph">
+            Blasphemous is a brutal action-platformer with skilled hack'n slash
+            combat
+          </p>
+          <button class="buttonlink">
+            <a href="games/Blasphemous/blasphemous.html">More</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="game">
+        <div>
+          <img
+            src="games/DarkSouls_1/img_darksouls_1/Title_img.webp"
+            alt="Title Image"
+            class="gameImg"
+          />
+        </div>
+        <div>
+          <h3 class="titleH3">DarkSouls</h3>
+          <p class="paragraph">
+            Then, there was fire. Re-experience the critically acclaimed,
+            genre-defining game that started it all.
+          </p>
+          <button class="buttonlink">
+            <a href="games/DarkSouls_1/DarkSouls_1.html">More</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="footerLinks">
+      <div id="logo"></div>
+      <div id="info">
+        <a href="other/contacInfo.html">Contact Info</a>
+        <a href="other/imprint.html">Imprint</a>
+        <a href="other/dataSecurity.html">Date Security</a>
+      </div>
+    </div>
+  </body>
 </html>
