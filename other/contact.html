@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Kitzmueller, Schwarz" />
     <link id="csstheme" rel="stylesheet" href="css/lightmode.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
     <script src="../js/theme.js"></script>
+
     <title>Contact Info</title>
   </head>
   <body>
@@ -19,12 +24,50 @@
     <div class="titel">
       <h1 id="titelH1">Contact</h1>
       <p class="paragraph">
-        Contact us about a Game you<br>
+        Contact us about a Game you<br />
         would like us to add
-    </p>
+      </p>
     </div>
 
-    
+    <div class="contact">
+      <form id="contact-form">
+        <input type="hidden" name="contact_number" value="697483" />
+
+        <div class="form-group">
+          <p>
+            <label for="user_name">Name</label>
+            <input type="text" id="user_name" name="user_name" required />
+          </p>
+
+          <p>
+            <label for="user_email">Email</label>
+            <input type="email" id="user_email" name="user_email" required />
+          </p>
+
+          <p>
+            <label for="subject">Subject</label>
+            <input type="text" id="user_subject" name="subject" required />
+          </p>
+        </div>
+
+        <div id="form-message">
+          <p>
+            <label for="message">Message</label> <br />
+            <textarea id="message" name="message" required></textarea>
+          </p>
+        </div>
+
+        <button type="submit" id="response-message">Send</button>
+      </form>
+    </div>
+
+    <!-- <div id="response-message"><p></p></div> -->
+
+<!-- dieser diser command gibt aus ob die nachricht erfolgreich gesendet wurde
+es ist eigentlich nur die id wichtig id="response-message" die habe ich aba 
+jetz oben in den submit butten gepackt also der text im button verändert sich
+wenn du das nicht willst lösch einfach die id aus dem button und kommentier 
+den command aus-->
 
     <div class="footerLinks">
       <div id="logo">
@@ -36,5 +79,7 @@
         <a href="dataSecurity.html">Date Security</a>
       </div>
     </div>
+
+    <script type="text/javascript" src="../js/contac.js"></script>
   </body>
 </html>
