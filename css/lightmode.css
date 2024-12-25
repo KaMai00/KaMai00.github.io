@@ -1,6 +1,24 @@
+body {
+    background-color: #EBEBEB;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333333;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar_div{
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+}
+
 .navbar_home {
     display: flex;
-    justify-content: center;
     padding: 10px;
 }
 
@@ -18,15 +36,144 @@
 
 }
 
+h3{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+h4{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
 
+p{
+font-size: 18px;
+}
 
+#titleImg {
+    align-self: center;
+    margin: 20px 0;
+}
+#titleImg img{
+    border-radius: 8px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #B79AEB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button a {
+    text-decoration: none;
+    color: #D1C3EB;
+}
+
+button:hover {
+    background-color: #a06cff;
+}
+#titleImg {
+    text-align: center;
+    margin: 20px 0;
+}
 .footerLinks {
     padding: 20px;
     display: flex;
     justify-content: center;
 
 }
+#descrip {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: #D1C3EB;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+#descrip h3{
+    margin: 20px;
+    text-align: center;
+}
+
+#game2Img {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#game2Img div {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+#game2Img div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#game2Img img {
+    border-radius: 8px;
+    width: auto;
+}
+
+#syst h3{
+    margin: 20px;
+    text-align: center; 
+}
+
+#systDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-self: center;
+    width: auto;
+    margin: 20px;
+    background-color: #D1C3EB;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#MinMaxDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#min h4, #rec h4{
+    text-align: center;
+}
+
+#min li, #rec li{
+    font-size: 18px;
+}
+
+#MLT {
+    margin: 20px;
+    text-align: center;
+}
+
+.MLTlink {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #D1C3EB;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.MLTlink img {
+    width: 100%;
+    border-radius: 8px;
+}
 .footerLinks a {
     text-decoration: none;
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

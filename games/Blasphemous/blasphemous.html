@@ -4,28 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link id="csstheme" rel="stylesheet" href="../../css/lightmode.css" />
-    <script src="../../js/theme.js"></script>
+    <!--<script src="../../js/theme.js"></script>-->
     <title>Blasphemous</title>
   </head>
 
   <body>
-    <div class="navbar_home">
-      <a href="../../index.html">Home</a>
-      <a href="../../other/new.html">New</a>
-      <a href="../../other/games.html">Games</a>
-      <a href="../../other/contact.html">Contact</a>
+    <div id="header">
+      <button type="button" id="logo_space" onclick="toggleCSSTheme()">Toggle Theme</button>
+      <div class="navbar_div">
+        <div class="navbar_home">
+        <a href="../../index.html">Home</a>
+        <a href="../../other/new.html">New</a>
+        <a href="../../other/games.html">Games</a>
+        <a href="../../other/contact.html">Contact</a>
+      </div>
     </div>
-    <button id="buttoncss" onclick="toggleCSSTheme()">Toggle Theme</button>
+      <button type="button" id="buttoncss" onclick="toggleCSSTheme()">Toggle Theme</button>
+    </div>
+    
 
     <div id="titleImg">
-      <img src="img_blasphemous/Title_img.webp" alt="Title Image" />
+      <img src="img_blasphemous/Title_img.webp" alt="Title_Image" />
     </div>
 
-    <!-- div für bild und text -->
     <div id="descrip">
-      <div>
-        <img src="img_blasphemous/img1.webp" alt="Image 1" id="descImg" />
-      </div>
       <div id="desc">
         <h3>Description</h3>
         <p>
@@ -44,15 +46,18 @@
       <div>
         <img src="img_blasphemous/img3.webp" alt="Image 3" class="2Img" />
       </div>
-    </div>
-
-    <div id="syst">
-      <!-- div für bild und text -->
       <div>
+        <img src="img_blasphemous/img1.webp" alt="Image 1" id="descImg" />
+      </div>
+    </div>
+    <div id="syst">
+    <h3>Requirements:</h3>
+    <div id="systDiv">
+      <div id="MinMaxDiv">
         <!-- minimum -->
-        <div>
+        <div id="min">
+          <h4>MINIMUM</h4>
           <ol>
-            <li>Minimum</li>
             <li>Requires a 64-bit processor and operating system</li>
             <li>OS: Windows 7 64-bit</li>
             <li>Processor: Intel Core2 Duo E8400 or AMD Phenom II x2 550</li>
@@ -61,11 +66,10 @@
             <li>Storage: 4 GB available space</li>
           </ol>
         </div>
-
         <!-- Recommended -->
-        <div>
+        <div id="rec">
+          <h4>RECOMMENDED</h4>
           <ol>
-            <li>RECOMMENDED</li>
             <li>Requires a 64-bit processor and operating system</li>
             <li>OS: Windows 10</li>
             <li>Processor: Intel Core i5-750 or AMD Phenom II x4 945</li>
@@ -75,14 +79,12 @@
           </ol>
         </div>
       </div>
-      <div>
-        <img src="img_blasphemous/img4.webp" alt=" Image 4" />
-      </div>
     </div>
+  </div>
 
     <div id="MLT">
       <h3>More like this</h3>
-      <p>games that are similar to this one</p>
+      <p>Games that are similar to this one:</p>
 
       <!-- game links -->
       <div>
@@ -128,7 +130,7 @@
             Rise, Tarnished, and be guided by grace to brandish the power of the
             Elden Ring and become an Elden Lord in the Lands Between.
           </p>
-          <button><a href="../Eldenring/Eldenring.html">Learn More</a></button>
+          <button type="button"><a href="../Eldenring/Eldenring.html">Learn More</a></button>
         </div>
       </div>
     </div>
