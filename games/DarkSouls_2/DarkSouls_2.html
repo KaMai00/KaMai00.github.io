@@ -6,32 +6,43 @@
     <link id="theme" rel="stylesheet" href="../../css/lightmode.css" />
     <title>DarkSouls 2</title>
 </head>
-<div class="navbar_home">
-  <a href="../../index.html">Home</a>
-  <a href="../../other/new.html">New</a>
-  <a href="../../other/games.html">Games</a>
-  <a href="../../other/contact.html">Contact</a>
-</div>
-<button onclick="toggleCSSTheme()">Toggle Theme</button>
+<body>
+  <div id="header">
+    <button type="button" id="logo_space" onclick="toggleCSSTheme()">
+      Logo
+    </button>
+    <div class="navbar_div">
+      <div class="navbar_home">
+        <a href="../../index.html">Home</a>
+        <a href="../../other/new.html">New</a>
+        <a href="../../other/games.html">Games</a>
+        <a href="../../other/contact.html">Contact</a>
+      </div>
+    </div>
+    <button type="button" id="buttoncss" onclick="toggleCSSTheme()">
+      Toggle Theme
+    </button>
+  </div>
 
-<div id="titleImg">
-  <img src="img_darksouls_2/Title_img.webp" alt="Title Image" />
-</div>
+  <div id="titleImg">
+    <img src="img_darksouls_2/Title_img.webp" alt="Title_Image" />
+  </div>
 
 <!-- div für bild und text -->
 <div id="descrip">
-  <div>
-    <img src="img_darksouls_2/img1.webp" alt="Image 1" id="descImg" />
-  </div>
   <div id="desc">
     <h3>Desciption</h3>
     <p>
-      Developed by FROM SOFTWARE, DARK SOULS™ II is the highly anticipated sequel to the gruelling 2011 breakout hit Dark Souls. The unique old-school action RPG experience captivated imaginations of gamers worldwide with incredible challenge and intense emotional reward.
+      Developed by FROM SOFTWARE, DARK SOULS™ II is the highly 
+      anticipated sequel to the gruelling 2011 breakout hit Dark Souls. 
+      The unique old-school action RPG experience captivated 
+      imaginations of gamers worldwide with incredible challenge and intense emotional reward.
     </p>
     <p>
-      DARK SOULS™ II brings the franchise's renowned obscurity & gripping gameplay innovations to both single and multiplayer experiences.
-
-Join the dark journey and experience overwhelming enemy encounters, diabolical hazards, and the unrelenting challenge that only FROM SOFTWARE can deliver.
+      DARK SOULS™ II brings the franchise's renowned obscurity & gripping gameplay 
+      innovations to both single and multiplayer experiences.
+      Join the dark journey and experience overwhelming enemy encounters, 
+      diabolical hazards, and the unrelenting challenge that only FROM SOFTWARE can deliver.
     </p>
   </div>
 </div>
@@ -43,41 +54,38 @@ Join the dark journey and experience overwhelming enemy encounters, diabolical h
   <div>
     <img src="img_darksouls_2/img3.webp" alt="Image 3" class="2Img" />
   </div>
+  <div>
+    <img src="img_darksouls_2/img1.webp" alt="Image 1" id="descImg" />
+  </div>
 </div>
 
 <div id="syst">
-  <!-- div für bild und text -->
-  <div>
-    <!-- minimum -->
-    <div>
-      <ol>
-        <li>Minimum</li>
+  <h3>Requirements:</h3>
+  <div id="systDiv">
+    <div id="MinMaxDiv">
+      <!-- minimum -->
+      <div id="min">
+        <h4>MINIMUM</h4>
+        <ol>
         <li>OS: Windows Vista SP2, Windows 7 SP1, Windows 8</li>
         <li>Processor: AMD® Phenom II™ X2 555 3.2Ghz or Intel® Pentium Core ™ 2 Duo E8500 3.17Ghz</li>
         <li>Memory: 2 GB RAM</li>
-        <li>
-          Graphics: NVIDIA® GeForce® 9600GT, ATI Radeon™ HD 5870
-        </li>
+        <li>Graphics: NVIDIA® GeForce® 9600GT, ATI Radeon™ HD 5870</li>
         <li>Storage: 12 GB available space</li>
       </ol>
     </div>
 
     <!-- Recommended -->
-    <div>
+    <div id="rec">
+      <h4>RECOMMENDED</h4>
       <ol>
-        <li>RECOMMENDED</li>
         <li>OS: Windows 7 SP1, Windows 8</li>
         <li>Processor: Intel® CoreTM i3 2100 3.10GHz or AMD® A8 3870K 3.0GHz</li>
         <li>Memory: 4 GB RAM</li>
-        <li>
-          Graphics: NVIDIA® GeForce® GTX 750 or ATI Radeon™ HD 6870 or higher
-        </li>
+        <li>Graphics: NVIDIA® GeForce® GTX 750 or ATI Radeon™ HD 6870 or higher</li>
         <li>Storage: 15 GB available space</li>
       </ol>
     </div>
-  </div>
-  <div>
-    <img src="img_darksouls_2/img4.webp" alt=" Image 4" />
   </div>
 </div>
 
@@ -85,7 +93,7 @@ Join the dark journey and experience overwhelming enemy encounters, diabolical h
 
 <div id="MLT">
   <h3>More like this</h3>
-  <p>games that are similar to this one</p>
+  <p>Games that are similar to this one</p>
 
   <!-- game links -->
   <div>

@@ -7,13 +7,22 @@
     <title>DarkSouls 3</title>
 </head>
 <body>
-  <div class="navbar_home">
-    <a href="../../index.html">Home</a>
-    <a href="../../other/new.html">New</a>
-    <a href="../../other/games.html">Games</a>
-    <a href="../../other/contact.html">Contact</a>
+  <div id="header">
+    <button type="button" id="logo_space" onclick="toggleCSSTheme()">
+      Logo
+    </button>
+    <div class="navbar_div">
+      <div class="navbar_home">
+        <a href="../../index.html">Home</a>
+        <a href="../../other/new.html">New</a>
+        <a href="../../other/games.html">Games</a>
+        <a href="../../other/contact.html">Contact</a>
+      </div>
+    </div>
+    <button type="button" id="buttoncss" onclick="toggleCSSTheme()">
+      Toggle Theme
+    </button>
   </div>
-  <button onclick="toggleCSSTheme()">Toggle Theme</button>
 
   <div id="titleImg">
     <img src="img_darksouls_3/Title_img.webp" alt="Title Image" />
@@ -21,9 +30,6 @@
 
   <!-- div für bild und text -->
   <div id="descrip">
-    <div>
-      <img src="img_darksouls_3/img1.webp" alt="Image 1" id="descImg" />
-    </div>
     <div id="desc">
       <h3>Desciption</h3>
       <p>
@@ -40,41 +46,38 @@
     <div>
       <img src="img_darksouls_3/img3.webp" alt="Image 3" class="2Img" />
     </div>
+    <div>
+      <img src="img_darksouls_3/img1.webp" alt="Image 1" id="descImg" />
+    </div>
   </div>
 
   <div id="syst">
-    <!-- div für bild und text -->
-    <div>
-      <!-- minimum -->
-      <div>
-        <ol>
-          <li>Minimum</li>
+    <h3>Requirements:</h3>
+    <div id="systDiv">
+      <div id="MinMaxDiv">
+        <!-- minimum -->
+        <div id="min">
+          <h4>MINIMUM</h4>
+          <ol>
           <li>OS: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit</li>
           <li>Processor: Intel Core i3-2100 / AMD® FX-6300</li>
           <li>Memory: 4 GB RAM</li>
-          <li>
-            Graphics: NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950
-          </li>
+          <li>Graphics: NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950</li>
           <li>Storage: 25 GB available space</li>
         </ol>
       </div>
 
       <!-- Recommended -->
-      <div>
+      <div id="rec">
+        <h4>RECOMMENDED</h4>
         <ol>
-          <li>RECOMMENDED</li>
           <li>OS: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit</li>
           <li>Processor: Intel Core i7-3770 / AMD® FX-8350</li>
           <li>Memory: 8 GB RAM</li>
-          <li>
-            Graphics: NVIDIA® GeForce GTX 970 / ATI Radeon R9 series
-          </li>
+          <li>Graphics: NVIDIA® GeForce GTX 970 / ATI Radeon R9 series</li>
           <li>Storage: 25 GB available space</li>
         </ol>
       </div>
-    </div>
-    <div>
-      <img src="img_darksouls_3/img4.webp" alt=" Image 4" />
     </div>
   </div>
 
@@ -82,7 +85,7 @@
 
   <div id="MLT">
     <h3>More like this</h3>
-    <p>games that are similar to this one</p>
+    <p>Games that are similar to this one</p>
 
     <!-- game links -->
     <div>
