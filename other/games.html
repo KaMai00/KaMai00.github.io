@@ -9,13 +9,22 @@
     <title>Contact Info</title>
   </head>
   <body>
-    <div class="navbar_home">
-      <a href="../index.html">Home</a>
-      <a href="new.html">New</a>
-      <a href="games.html">Games</a>
-      <a href="contact.html">Contact</a>
+    <div id="header">
+      <button type="button" id="logo_space" onclick="toggleCSSTheme()">
+        Logo
+      </button>
+      <div class="navbar_div">
+        <div class="navbar_home">
+          <a href="../index.html">Home</a>
+          <a href="new.html">New</a>
+          <a href="games.html">Games</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <button type="button" id="buttoncss" onclick="toggleCSSTheme()">
+        Toggle Theme
+      </button>
     </div>
-    <button onclick="toggleCSSTheme()">Toggle Theme</button>
     <div class="titel">
       <h1 id="titelH1">Games</h1>
       <p>All Games</p>

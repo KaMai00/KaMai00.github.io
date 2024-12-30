@@ -11,13 +11,22 @@
   </head>
 
   <body>
-    <div class="navbar_home">
-      <a href="index.html">Home</a>
-      <a href="other/new.html">New</a>
-      <a href="other/games.html">Games</a>
-      <a href="other/contact.html">Contact</a>
+    <div id="header">
+      <button type="button" id="logo_space" onclick="toggleCSSTheme()">
+        Logo
+      </button>
+      <div class="navbar_div">
+        <div class="navbar_home">
+          <a href="index.html">Home</a>
+          <a href="other/new.html">New</a>
+          <a href="other/games.html">Games</a>
+          <a href="other/contact.html">Contact</a>
+        </div>
+      </div>
+      <button type="button" id="buttoncss" onclick="toggleCSSTheme()">
+        Toggle Theme
+      </button>
     </div>
-    <button class="buttoncss" onclick="toggleCSSTheme()">Toggle Theme</button>
     <div class="titel">
       <h1 class="titelH1">More Like This</h1>
       <h2 class="titleH2">A Webprojekt by Julian and Noah</h2>
@@ -25,13 +34,13 @@
 
     <div class="gMonth">
       <div class="gameContent">
-        <h3 class="titleH3">Game Title</h3>
         <h4 class="titelH4">Game of The Month</h4>
+        <h3 class="titleH3">Game Title</h3>
         <div class="gMonthIMG">
           <img src="" alt="Game of the Month Title Image" id="gMonthIMG" />
         </div>
         <p class="paragraph">
-          placeholder
+          Placeholder
         </p>
         <button>
           <a href="">Learn More</a>
@@ -39,20 +48,20 @@
       </div>
     </div>
 
-    <div class="featured">
+    <div id="featured">
       <h2 class="titleH2">Featured Games</h2>
-      <p class="paragraph">Games we think you would like</p>
-      <div class="game">
+      <p>Games we think you would like</p>
+      <div class="fegame">
         <div>
+        </div>
+        <div>
+          <h3>DarkSouls 2</h3>
           <img
             src="games/DarkSouls_2/img_darksouls_2/Title_img.webp"
             alt="Title Image"
             class="gameImg"
           />
-        </div>
-        <div>
-          <h3 class="titleH3">DarkSouls 2</h3>
-          <p class="paragraph">
+          <p>
             Dark Souls 2 is the highly anticipated sequel to the gruelling 2011
             breakout hit Dark Souls.
           </p>
@@ -62,17 +71,17 @@
         </div>
       </div>
 
-      <div class="game">
+      <div class="fegame">
         <div>
+        </div>
+        <div>
+          <h3>Blasphemous</h3>
           <img
             src="games/Blasphemous/img_blasphemous/Title_img.webp"
             alt="Title Image"
             class="gameImg"
           />
-        </div>
-        <div>
-          <h3 class="titleH3">Blasphemous</h3>
-          <p class="paragraph">
+          <p>
             Blasphemous is a brutal action-platformer with skilled hack'n slash
             combat
           </p>
@@ -82,21 +91,21 @@
         </div>
       </div>
 
-      <div class="game">
+      <div class="fegame">
         <div>
+        </div>
+        <div>
+          <h3>DarkSouls</h3>
           <img
             src="games/DarkSouls_1/img_darksouls_1/Title_img.webp"
             alt="Title Image"
             class="gameImg"
           />
-        </div>
-        <div>
-          <h3 class="titleH3">DarkSouls</h3>
-          <p class="paragraph">
+          <p>
             Then, there was fire. Re-experience the critically acclaimed,
             genre-defining game that started it all.
           </p>
-          <button class="buttonlink">
+          <button>
             <a href="games/DarkSouls_1/DarkSouls_1.html">More</a>
           </button>
         </div>

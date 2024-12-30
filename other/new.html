@@ -9,13 +9,22 @@
     <title>Contact Info</title>
   </head>
   <body>
-    <div class="navbar_home">
-      <a href="../index.html">Home</a>
-      <a href="new.html">New</a>
-      <a href="games.html">Games</a>
-      <a href="contact.html">Contact</a>
+    <div id="header">
+      <button type="button" id="logo_space" onclick="toggleCSSTheme()">
+        Logo
+      </button>
+      <div class="navbar_div">
+        <div class="navbar_home">
+          <a href="../index.html">Home</a>
+          <a href="new.html">New</a>
+          <a href="games.html">Games</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <button type="button" id="buttoncss" onclick="toggleCSSTheme()">
+        Toggle Theme
+      </button>
     </div>
-    <button onclick="toggleCSSTheme()">Toggle Theme</button>
     <div class="titel">
       <h1 id="titelH1">New Games</h1>
       <p>
@@ -23,126 +32,142 @@
         Newly added to the Site
       </p>
     </div>
-
-    <div id="newGames">
-      <div>
-        <h2>New Game Releases</h2>
-        <p>Recently released Games that may be added</p>
-        <ol>
-          <li>Metro Awakening</li>
-          <li>Goat Simulator</li>
-          <li>Slitterhead</li>
-        </ol>
-      </div>
-
-      <p>Newly released and added</p>
-      <div class="game">
+    <div id="new">
+      <div id="newGames">
         <div>
-          <img
-            src="../games/Blasphemous_2/img_blasphemous_2/Title_img.webp"
-            alt="Title img"
-            class="gameImg"
-            />
+          <h2>New Game Releases</h2>
+          <p>Recently released Games that may be added</p>
+          <div class="newrelol">
+            <ol>
+              <!-- noch links einfügen -->
+              <li>Metro Awakening</li>
+              <li>Goat Simulator</li>
+              <li>Slitterhead</li>
+            </ol>
           </div>
+        </div>
+  
+        <p>Newly released and added</p>
+        <div class="ngame">
+            <div>
+            <h3>Blasphemous 2</h3>
+            <div>
+              <img
+                src="../games/Blasphemous_2/img_blasphemous_2/Title_img.webp"
+                alt="Title img"
+                class="gameImg"
+                />
+              </div>
+              <div class="gameDesc">
+                <p>The Penitent One awakens as Blasphemous 2 joins him once again in an
+                  endless struggle against The Miracle.</p>
+                <button><a href="../games/Blasphemous_2/blasphemous_2.html">More</a></button>
+              </div>
+          </div>
+        </div>
+  
+        <div class="ngame">
           <div>
-          <h3>Blasphemous 2</h3>
-          <p>            The Penitent One awakens as Blasphemous 2 joins him once again in an
-            endless struggle against The Miracle.</p>
-          <button><a href="../games/Blasphemous_2/blasphemous_2.html">More</a></button>
+            <h3>Eldenring</h3>
+            <div>
+              <img
+                src="../games/Eldenring/img_eldenring/Title_img.webp"
+                alt="Title img"
+                class="gameImg"
+              />
+            </div>
+            <div class="gameDesc">
+              <p>
+                Rise, Tarnished, and be guided by grace to brandish the power of the
+                Elden Ring and become an Elden Lord in the Lands Between.
+              </p>
+              <button><a href="../games/Eldenring/Eldenring.html">More</a></button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="ngame">
+          <div>
+            <h3>Blasphemous</h3>
+            <div>
+              <img
+                src="../games/Blasphemous/img_blasphemous/Title_img.webp"
+                alt="Title img"
+                class="gameImg"
+              />
+            </div>
+            <div class="gameDesc">
+              <p>
+                Blasphemous is a brutal action-platformer with skilled hack'n slash
+                combat
+              </p>
+              <button><a href="../games/Blasphemous/blasphemous.html">More</a></button>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="game">
-        <div>
-          <img
-            src="../games/Eldenring/img_eldenring/Title_img.webp"
-            alt="Title img"
-            class="gameImg"
-          />
+  
+  
+      <div id="newAdd">
+        <h2>Newly added Games</h2>
+        <p>Games that where recently added to the Site</p>
+        <div class="ragame">
+          <div>
+            <h3>DarkSouls</h3>
+            <div>
+              <img
+                src="../games/DarkSouls_1/img_darksouls_1/Title_img.webp"
+                alt="Title img"
+                class="gameImg"
+              />
+            </div>
+            <div class="gameDesc">
+              <p>
+                Then, there was fire. Re-experience the critically acclaimed,
+                genre-defining game that started it all.
+              </p>
+              <button><a href="../games/DarkSouls_1/DarkSouls_1.html">More</a></button>
+            </div>
+          </div>
         </div>
-        <div>
-          <h3>Eldenring</h3>
-          <p>
-            Rise, Tarnished, and be guided by grace to brandish the power of the
-            Elden Ring and become an Elden Lord in the Lands Between.
-          </p>
-          <button><a href="../games/Eldenring/Eldenring.html">More</a></button>
+        <div class="ragame">
+          <div>
+            <h3>DarkSouls 2</h3>
+            <div>
+              <img
+                src="../games/DarkSouls_2/img_darksouls_2/Title_img.webp"
+                alt="Title img"
+                class="gameImg"
+              />
+            </div>
+            <div class="gameDesc">
+              <p>
+                Dark Souls 2 is the highly anticipated sequel to the gruelling 2011
+                breakout hit Dark Souls.
+              </p>
+              <button><a href="../games/DarkSouls_2/DarkSouls_2.html">More</a></button>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="game">
-        <div>
-          <img
-            src="../games/Blasphemous/img_blasphemous/Title_img.webp"
-            alt="Title img"
-            class="gameImg"
-          />
-        </div>
-        <div>
-          <h3>Blasphemous</h3>
-          <p>
-            Blasphemous is a brutal action-platformer with skilled hack'n slash
-            combat
-          </p>
-          <button><a href="../games/Blasphemous/blasphemous.html">More</a></button>
-        </div>
-      </div>
-    </div>
-
-
-    <div id="newAdd">
-      <h2>Newly added Games</h2>
-      <p>Games that where recently added to the Site</p>
-      <div class="game">
-        <div>
-          <img
-            src="../games/DarkSouls_1/img_darksouls_1/Title_img.webp"
-            alt="Title img"
-            class="gameImg"
-          />
-        </div>
-        <div>
-          <h3>DarkSouls</h3>
-          <p>
-            Then, there was fire. Re-experience the critically acclaimed,
-            genre-defining game that started it all.
-          </p>
-          <button><a href="../games/DarkSouls_1/DarkSouls_1.html">More</a></button>
-        </div>
-      </div>
-      <div class="game">
-        <div>
-          <img
-            src="../games/DarkSouls_2/img_darksouls_2/Title_img.webp"
-            alt="Title img"
-            class="gameImg"
-          />
-        </div>
-        <div>
-          <h3>DarkSouls 2</h3>
-          <p>
-            Dark Souls 2 is the highly anticipated sequel to the gruelling 2011
-            breakout hit Dark Souls.
-          </p>
-          <button><a href="../games/DarkSouls_2/DarkSouls_2.html">More</a></button>
-        </div>
-      </div>
-      <div class="game">
-        <div>
-          <img
-            src="../games/DarkSouls_3/img_darksouls_3/Title_img.webp"
-            alt="Title img"
-            class="gameImg"
-          />
-        </div>
-        <div>
-          <h3>DarkSouls 3</h3>
-          <p>
-            Dark Souls continues to push the boundaries with the latest,
-            ambitious chapter in the critically-acclaimed and genre-defining
-            series.
-          </p>
-          <button><a href="../games/DarkSouls_3/DarkSouls_3.html">More</a></button>
+        <div class="ragame">
+          <div>
+            <h3>DarkSouls 3</h3>
+            <div>
+              <img
+                src="../games/DarkSouls_3/img_darksouls_3/Title_img.webp"
+                alt="Title img"
+                class="gameImg"
+              />
+            </div>
+            <div class="gameDesc">
+              <p>
+                Dark Souls continues to push the boundaries with the latest,
+                ambitious chapter in the critically-acclaimed and genre-defining
+                series.
+              </p>
+              <button><a href="../games/DarkSouls_3/DarkSouls_3.html">More</a></button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
