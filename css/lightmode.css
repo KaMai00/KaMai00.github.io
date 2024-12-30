@@ -347,10 +347,3 @@ h3 {
     color: #9f05b7;
     transform: scale(1.05);
 }
-@media (min-width: 600px) {
-    #allGames {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-}
