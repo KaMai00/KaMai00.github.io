@@ -34,12 +34,24 @@ h3{
     font-size: 28px;
     margin-bottom: 0px;
 }
+.titleH3 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #333;
+}
 h4{
     font-size: 22px;
     margin-bottom: 0px;
+    text-align: center;
+}
+.titelH4 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
 }
 p{
 font-size: 18px;
+text-align: left;
 }
 #titleImg {
     align-self: center;
@@ -335,7 +347,18 @@ h3 {
     align-content: center;
     text-align: center;
 }
-
+#JK, #NS {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #D1C3EB;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+#JKdesc p, #NSdesc p {
+    margin: 10px 0;
+    color: #666;
+}
 .footerLinks a {
     text-decoration: none;
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
