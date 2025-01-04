@@ -385,3 +385,52 @@ body {
     transform: scale(1.05);
   }
   
+  @media (max-width: 480px) {
+    h3 {
+      font-size: 24px;
+    }
+  
+    h4 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    .navbar_home a {
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 8px 12px;
+    }
+  
+    #titleImg img {
+      width: 100%;
+    }
+  
+    .MLTlink {
+      width: 100%;
+    }
+  
+    #contact-form {
+      width: 100%;
+    }
+  
+    .game,
+    .ngame,
+    .ragame,
+    .fegame {
+      width: 100%;
+    }
+  
+    .gameContent {
+      width: 100%;
+    }
+  
+    .gMonthIMG img {
+      width: 100%;
+    }
+  }
+  
