@@ -6,8 +6,7 @@ body {
 #header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  align-items: center; 
 }
 .navbar_div {
   justify-content: center;
@@ -27,6 +26,36 @@ body {
 }
 .navbar_home a:hover {
   color: #9f05b7;
+  transform: scale(1.05);
+}
+#logo{
+  padding: 10px 15px;
+  display: inline-block;
+  line-height: normal;
+  height: auto;
+  display: flex;
+  width: 20%;
+  flex-basis: 20%;
+  margin-right: 0;
+}
+#logo img{
+  width: 20%;
+}
+#theme{
+  padding: 10px 15px;
+  line-height: normal;
+  height: auto;
+  display: flex;
+  justify-content: right;
+  flex-basis: 20%;
+  margin-right: 0;
+}
+#theme button{
+  background-color: #555;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#theme button:hover{
+  background-color: #9f05b7;
   transform: scale(1.05);
 }
 h3 {
@@ -279,7 +308,7 @@ h3 {
 p,
 #newGames h2,
 p {
-  text-align: center;
+  text-align: left;
 }
 .ngame,
 .ragame {

@@ -9,9 +9,9 @@
   </head>
   <body>
     <div id="header">
-      <button type="button" id="logo_space" onclick="toggleCSSTheme()">
-        Logo
-      </button>
+      <div id="logo">
+        <img src="../../other/img/MLT_Logo_light.webp" alt="Logo">
+      </div>
       <div class="navbar_div">
         <div class="navbar_home">
           <a href="../../index.html">Home</a>
@@ -20,10 +20,12 @@
           <a href="../../other/contact.html">Contact</a>
         </div>
       </div>
-      <button type="button" id="buttoncss" onclick="toggleCSSTheme()">
-        Toggle Theme
-      </button>
-    </div>
+        <div id="theme">
+          <button type="button" id="buttoncss" onclick="toggleCSSTheme()">
+          Toggle Theme
+          </button>
+        </div>
+      </div>
 
     <div id="titleImg">
       <img src="img_darksouls_1/Title_img.webp" alt="Title Image" />
@@ -123,9 +125,6 @@
     </div>
 
     <div class="footerLinks">
-      <div id="logo">
-        <!-- logo -->
-      </div>
       <div id="info">
         <a href="../../other/contacInfo.html">Contact Info</a>
         <a href="../../other/imprint.html">Imprint</a>
