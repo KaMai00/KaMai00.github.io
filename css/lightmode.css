@@ -6,7 +6,7 @@ body {
 #header {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
 }
 .navbar_div {
   justify-content: center;
@@ -28,7 +28,7 @@ body {
   color: #9f05b7;
   transform: scale(1.05);
 }
-#logo{
+#logo {
   padding: 10px 15px;
   display: inline-block;
   line-height: normal;
@@ -38,10 +38,10 @@ body {
   flex-basis: 20%;
   margin-right: 0;
 }
-#logo img{
+#logo img {
   width: 20%;
 }
-#theme{
+#theme {
   padding: 10px 15px;
   line-height: normal;
   height: auto;
@@ -50,11 +50,11 @@ body {
   flex-basis: 20%;
   margin-right: 0;
 }
-#theme button{
+#theme button {
   background-color: #555;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-#theme button:hover{
+#theme button:hover {
   background-color: #9f05b7;
   transform: scale(1.05);
 }
@@ -79,7 +79,7 @@ h4 {
 }
 p {
   font-size: 18px;
-  text-align: left;
+  text-align: center;
 }
 #titleImg {
   align-self: center;
@@ -304,12 +304,12 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
+
 #newAdd h2,
-p,
-#newGames h2,
-p {
-  text-align: left;
+#newGames h2 {
+  text-align: center;
 }
+
 .ngame,
 .ragame {
   display: inline-block;
@@ -374,6 +374,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .fegame {
   display: inline-block;
