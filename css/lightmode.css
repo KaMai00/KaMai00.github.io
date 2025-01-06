@@ -387,6 +387,10 @@ h3 {
   align-content: center;
   text-align: center;
 }
+.fegame img {
+  width: 70%;
+  border-radius: 5px;
+}
 #JK,
 #NS {
   margin: 20px auto;
@@ -412,126 +416,127 @@ h3 {
   color: #9f05b7;
   transform: scale(1.05);
 }
-
 @media (max-width: 768px) {
   body {
     font-size: 16px;
   }
-
   #header {
     flex-direction: column;
     padding: 10px;
   }
-
   .navbar_div {
     flex-direction: column;
     align-items: center;
   }
-
   .navbar_home a {
-    margin: 5px 0;
+    margin: 10px 0;
   }
-
+  #logo{
+    width: 350px;
+    justify-content: center;
+    margin: 10px 0;
+  }
   #titleImg img {
     width: 80%;
   }
-
   #descrip {
     width: 90%;
     flex-direction: column;
   }
-
   #game2Img {
     flex-direction: column;
   }
-
   #game2Img div {
     margin: 10px 0;
   }
-
   #systDiv {
     flex-direction: column;
   }
-
   #MinMaxDiv {
     flex-direction: column;
   }
-
   .MLTlink {
     width: 80%;
   }
-
   #contact-form {
     width: 90%;
   }
-
   #allGames {
     grid-template-columns: 1fr;
   }
-
   .game {
     width: 90%;
   }
-
   .ngame,
   .ragame,
   .fegame {
     width: 90%;
   }
-
+  .fegame img{
+    width: 90%;
+  }
   .gameContent {
     width: 90%;
   }
-
   .gMonthIMG img {
     width: 90%;
   }
 }
-
 @media (max-width: 480px) {
+  
+  #header {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .navbar_div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar_home a{
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  #logo{
+    width: 200px;
+    justify-content: center;
+    margin: 10px 0;
+  }
   h3 {
     font-size: 24px;
   }
-
   h4 {
     font-size: 18px;
   }
-
   p {
     font-size: 14px;
   }
-
   .navbar_home a {
     font-size: 14px;
   }
-
   button {
     padding: 8px 12px;
   }
-
   #titleImg img {
     width: 100%;
   }
-
   .MLTlink {
     width: 100%;
   }
-
   #contact-form {
     width: 100%;
   }
-
   .game,
   .ngame,
   .ragame,
   .fegame {
     width: 100%;
   }
-
+  .fegame img{
+    width: 100%;
+  }
   .gameContent {
     width: 100%;
   }
-
   .gMonthIMG img {
     width: 100%;
   }
