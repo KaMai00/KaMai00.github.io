@@ -467,6 +467,9 @@ h3 {
   .game {
     width: 90%;
   }
+  .gameImg{
+    width: 90%;
+  }
   .ngame,
   .ragame,
   .fegame {
@@ -529,6 +532,9 @@ h3 {
   .ngame,
   .ragame,
   .fegame {
+    width: 100%;
+  }
+  .gameImg{
     width: 100%;
   }
   .fegame img{

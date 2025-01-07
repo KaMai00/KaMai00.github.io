@@ -468,6 +468,9 @@ body {
     .game {
       width: 90%;
     }
+    .gameImg{
+      width: 90%;
+    }
     .ngame,
     .ragame,
     .fegame {
@@ -530,6 +533,9 @@ body {
     .ngame,
     .ragame,
     .fegame {
+      width: 100%;
+    }
+    .gameImg{
       width: 100%;
     }
     .fegame img{
