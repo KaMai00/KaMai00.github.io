@@ -588,5 +588,9 @@ body {
     .MLTlink p {
       font-size: 0.9em;
     }
+    footerLinks a{
+      font-size: 12px;
+    }
   }
+  
   
