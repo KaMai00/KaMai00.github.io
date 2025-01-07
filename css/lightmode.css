@@ -458,11 +458,15 @@ h3 {
     width: 90%;
     flex-direction: column;
   }
-  #game2Img {
-    flex-direction: column;
-  }
   #game2Img div {
     margin: 10px 0;
+    text-align: center;
+  }
+  #game2Img {
+    display: block;
+  }
+  #game2Img {
+    margin: 0 10px;
   }
   #systDiv {
     flex-direction: column;
@@ -562,6 +566,16 @@ h3 {
   }
   .fegame img {
     width: 100%;
+  }
+  #game2Img div {
+    margin: 10px 0;
+    text-align: center;
+  }
+  #game2Img {
+    display: block;
+  }
+  #game2Img {
+    margin: 0 10px;
   }
   .gameContent {
     width: 100%;
