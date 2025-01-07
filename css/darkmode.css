@@ -28,6 +28,11 @@ body {
     color: #9f05b7;
     transform: scale(1.05);
   }
+  .dataSecurity, .dsec{
+    text-align: left;
+    margin: 10px;
+    margin-right: 0px;
+  }
   #logo{
     padding: 10px 15px;
     display: inline-block;
