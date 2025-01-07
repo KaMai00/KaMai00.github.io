@@ -294,7 +294,7 @@ body {
     text-align: center;
   }
   .gameImg img {
-    max-width: 120%;
+    width: 100%;
     height: auto;
     border-radius: 5px;
   }
@@ -437,7 +437,10 @@ body {
     .navbar_home a {
       margin: 10px 0;
     }
-    #logo{
+    .navbar_home{
+      gap: 1rem;
+    }
+    #logo {
       width: 350px;
       justify-content: center;
       margin: 10px 0;
@@ -473,7 +476,7 @@ body {
     .game {
       width: 90%;
     }
-    .gameImg{
+    .gameImg img{
       width: 90%;
     }
     .ngame,
@@ -481,7 +484,7 @@ body {
     .fegame {
       width: 90%;
     }
-    .fegame img{
+    .fegame img {
       width: 90%;
     }
     .gameContent {
@@ -490,9 +493,17 @@ body {
     .gMonthIMG img {
       width: 90%;
     }
+    #systDiv {
+      flex-direction: column;
+    }
+    #MinMaxDiv {
+      flex-direction: column;
+    }
+    .MLTlink {
+      margin-bottom: 30px;
+    }
   }
   @media (max-width: 480px) {
-    
     #header {
       flex-direction: column;
       padding: 10px;
@@ -501,11 +512,11 @@ body {
       flex-direction: column;
       align-items: center;
     }
-    .navbar_home a{
+    .navbar_home a {
       font-size: 14px;
       margin: 10px 0;
     }
-    #logo{
+    #logo {
       width: 200px;
       justify-content: center;
       margin: 10px 0;
@@ -540,10 +551,10 @@ body {
     .fegame {
       width: 100%;
     }
-    .gameImg{
+    .gameImg img{
       width: 100%;
     }
-    .fegame img{
+    .fegame img {
       width: 100%;
     }
     .gameContent {
@@ -551,6 +562,17 @@ body {
     }
     .gMonthIMG img {
       width: 100%;
+    }
+    #descrip,
+    #syst,
+    #MLT {
+      padding: 10px;
+    }
+    .MLTlink h3 {
+      font-size: 1.2em;
+    }
+    .MLTlink p {
+      font-size: 0.9em;
     }
   }
   
