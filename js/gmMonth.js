@@ -40,7 +40,7 @@ function displayRandomGame() {
 
   // Update the HTML elements with the selected game data
   document.querySelector(".titleH3").textContent = names[randomIndex];
-  document.querySelector(".titelH4").textContent = "Game of The Month"; // You can change this if needed
+  document.querySelector(".titelH4").textContent = "Recommendet for You"; // You can change this if needed
   document.getElementById("gMonthIMG").src = pictureLinks[randomIndex];
   document.querySelector(".paragraph").textContent = descriptions[randomIndex];
   document.querySelector("button a").href = hyperlinks[randomIndex];
